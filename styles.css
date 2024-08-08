@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+#gameCanvas {
+    background-color: #66cc66;
+    border: 2px solid #000;
+}
+
+.player, .car {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.player {
+    background-color: #00ff00;
+}
+
+.car {
+    background-color: #ff0000;
+}
